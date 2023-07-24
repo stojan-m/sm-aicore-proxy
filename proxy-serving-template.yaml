@@ -32,7 +32,7 @@ spec:
         maxReplicas: 2  # how much to scale
         containers:
         - name: kserve-container
-          image: docker.io/stojanm/openaiproxy:1.0
+          image: docker.io/stojanm/sm-aicore-proxy:1.0
           ports:
             - containerPort: 9001  # customizable port
               protocol: TCP
