@@ -27,7 +27,7 @@ spec:
     spec: |-
       predictor:
         imagePullSecrets:
-          - name: de133277-48f8-4919-bdfd-9b1ebe84fafb
+          - name: sm-docker-secret
         minReplicas: 1
         maxReplicas: 2  # how much to scale
         containers:
