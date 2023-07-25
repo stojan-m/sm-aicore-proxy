@@ -10,7 +10,7 @@ metadata:
     ai.sap.com/version: '1.0'
     scenarios.ai.sap.com/id: sm-genan-scenario
   name: sm-genan-proxy
-spec: 
+spec:
   inputs:
     parameters:
     - name: azureDeploymentUrl
