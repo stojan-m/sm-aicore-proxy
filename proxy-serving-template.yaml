@@ -1,6 +1,6 @@
 apiVersion: ai.sap.com/v1alpha1
 kind: ServingTemplate
-metadata:
+metadata: 
   annotations:
     executables.ai.sap.com/description: OpenAI SM
     executables.ai.sap.com/name: sm-genan-proxy
